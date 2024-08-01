@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Burger {
 	String type;
-	
+
 	public void customize() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the burger type: ");
