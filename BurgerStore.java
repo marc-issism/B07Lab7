@@ -1,9 +1,8 @@
-public class BurgerStore {
-	Burger order() {
-		Burger burger = new Burger();
-		burger.customize();
-		burger.prepare();
-		burger.box();
-		return burger;
+public class BurgerStore extends Store{
+
+	@Override
+	public Food createFood() {
+		return new Burger();
 	}
+
 }

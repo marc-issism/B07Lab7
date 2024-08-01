@@ -1,9 +1,7 @@
-public class PizzaStore {
-	Pizza order() {
-		Pizza pizza = new Pizza();
-		pizza.customize();
-		pizza.prepare();
-		pizza.box();
-		return pizza;
+public class PizzaStore extends Store {
+	
+	@Override
+	public Food createFood() {
+		return new Pizza();
 	}
 }

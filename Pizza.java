@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class Pizza {
+public class Pizza implements Food {
 	String type;
 	String size;
+
 	
 	public void customize() {
 		Scanner scan = new Scanner(System.in);
